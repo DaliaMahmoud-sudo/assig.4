@@ -527,6 +527,17 @@ color: #ad46ff;
 .meet-tittle p {
   color: #525252;
   font-size: 20px;
+  position: relative;
+}
+.meet-tittle p::after{
+     content: "";
+     position: absolute;
+      left: 50%;
+     transform:translateX(-50%) ;
+     bottom: -15px;
+     width: 200px;
+     height: 5px;
+     background-color: #525252;
 }
 .colored {
   color: #525252;
@@ -596,7 +607,7 @@ color: #ad46ff;
 }
 .join h2 {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 900; 
 }
 .join-paragraph {
   font-weight: 600;
@@ -605,7 +616,9 @@ color: #ad46ff;
   border: 3px solid black;
   box-shadow: 5px 5px black;
   padding: 25px;
+
 }
+
 .list p {
   font-size: 18px;
   font-weight: 600;
@@ -665,6 +678,21 @@ button.join:hover{
   font-family: 900;
   margin-top: 10px;
   color: rgb(82, 82, 82);
+   position: relative;
+}
+.last-tittle p::after{
+     content: "";
+     position: absolute;
+     left: 50%;
+     transform:translateX(-50%) ;
+     bottom: -15px;
+     width: 250px;
+     height: 5px;
+     background-color: #525252;
+     -webkit-transform:translateX(-50%) ;
+     -moz-transform:translateX(-50%) ;
+     -ms-transform:translateX(-50%) ;
+     -o-transform:translateX(-50%) ;
 }
 .list i {
   border: 3px solid black;
