@@ -18,7 +18,9 @@
     .sm-hidden{
         display: none;
     }
-    
+       .sm-display{
+        display: block;
+    }
 }
 /* medium */
 @media screen and (min-width:768px) {
@@ -67,6 +69,9 @@
     }
     .lg-display{
         display: block;
+    }
+       .lg-hidden{
+        display: none;
     }
     
 }
